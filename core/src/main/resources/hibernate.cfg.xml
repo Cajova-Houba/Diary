@@ -1,0 +1,17 @@
+<!-- The following doctype doesn't work when offline, so default to old one, which does work.
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">-->
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+    <session-factory>
+    	<property name="hibernate.enable_lazy_load_no_trans">true</property>
+        <mapping class="org.appfuse.model.User"/>
+        <mapping class="org.appfuse.model.Role"/>
+        <mapping class="com.diary.model.Plan"/>
+        <mapping class="com.diary.model.DailyRecord"/>
+        <mapping class="com.diary.model.Activity"/>
+        <mapping class="com.diary.model.Goal"/>
+    </session-factory>
+</hibernate-configuration>

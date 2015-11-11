@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.diary.service.GoalManagerImplTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.57 sec - in com.diary.service.GoalManagerImplTest

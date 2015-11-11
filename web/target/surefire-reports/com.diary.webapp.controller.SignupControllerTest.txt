@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.diary.webapp.controller.SignupControllerTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 47.768 sec - in com.diary.webapp.controller.SignupControllerTest

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.diary.dao.ActivityDaoTest" time="0.82" tests="5" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="D:\tools\java\jdk\jre\bin"/>
+    <property name="java.vm.version" value="25.45-b02"/>
+    <property name="user.country.format" value="CZ"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/cygdrive/d/škola/FIN/sem1/project/source/diary-test-2/core"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="test" value="com.diary.dao.*Test"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\škola\FIN\sem1\project\source\diary-test-2\core"/>
+    <property name="java.runtime.version" value="1.8.0_45-b14"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="D:\tools\java\jdk\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="D:\tools\cygwin\tmp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="D:\tools\develop\apache-maven/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1250"/>
+    <property name="java.library.path" value="D:\tools\java\jdk\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\tools\cygwin\usr\local\bin;D:\tools\cygwin\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;D:\tools\develop\python34;D:\tools\develop\python34\Scripts;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;D:\tools\develop\MinGW\bin;D:\tools\files\WinSCP;D:\tools\develop\MiKTex\miktex\bin;C:\Program Files\Microsoft SQL Server\110\Tools\Binn;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0;C:\Program Files\Microsoft SQL Server\120\Tools\Binn;D:\tools\java\jdk\bin;D:\tools\GPG4win\pub;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit;D:\tools\develop\oracle;D:\tools\develop\oracle\bin;C:\Program Files (x86)\Windows Live\Shared;D:\tools\java\jdk\bin;D:\tools\science\Matlab\runtime\win64;D:\tools\science\Matlab\bin;D:\tools\science\Matlab\polyspace\bin;D:\hry\origin;D:\tools\develop\apache-maven\bin;D:\tools\develop\gradle\bin;D:\tools\cygwin\bin;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\Zdenda"/>
+    <property name="user.timezone" value="Europe/Helsinki"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1250"/>
+    <property name="user.name" value="Zdenda"/>
+    <property name="java.class.path" value="D:\tools\develop\apache-maven/boot/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="D:\tools\java\jdk\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dtest=com.diary.dao.*Test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="user.language.format" value="cs"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_45"/>
+    <property name="java.ext.dirs" value="D:\tools\java\jdk\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="D:\tools\java\jdk\jre\lib\resources.jar;D:\tools\java\jdk\jre\lib\rt.jar;D:\tools\java\jdk\jre\lib\sunrsasign.jar;D:\tools\java\jdk\jre\lib\jsse.jar;D:\tools\java\jdk\jre\lib\jce.jar;D:\tools\java\jdk\jre\lib\charsets.jar;D:\tools\java\jdk\jre\lib\jfr.jar;D:\tools\java\jdk\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp852"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="D:\tools\develop\apache-maven"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp852"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="testDeleteGoalsForActivity" classname="com.diary.dao.ActivityDaoTest" time="0.453"/>
+  <testcase name="testToString" classname="com.diary.dao.ActivityDaoTest" time="0.246"/>
+  <testcase name="testSaveActivity" classname="com.diary.dao.ActivityDaoTest" time="0.078"/>
+  <testcase name="testGetGoalsForActivity" classname="com.diary.dao.ActivityDaoTest" time="0.019"/>
+  <testcase name="testGetDailyRecordForActivity" classname="com.diary.dao.ActivityDaoTest" time="0.024"/>
+</testsuite>

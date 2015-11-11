@@ -1,0 +1,4 @@
+com\diary\dao\DailyRecordDaoTest.class
+com\diary\dao\PlanDaoTest.class
+com\diary\dao\ActivityDaoTest.class
+com\diary\dao\GoalDaoTest.class

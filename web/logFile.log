@@ -1,0 +1,2 @@
+2015-11-12 00:28:26,746 DEBUG [main] service.GoalManagerImpl (GoalManagerImpl.java:78) - Entering calculateProgress method..
+2015-11-12 00:28:26,750 DEBUG [main] service.GoalManagerImpl (GoalManagerImpl.java:79) - Goal ID: 2

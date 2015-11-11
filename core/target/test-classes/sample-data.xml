@@ -1,0 +1,585 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+    <table name="app_user">
+        <column>id</column>
+        <column>username</column>
+        <column>password</column>
+        <column>first_name</column>
+        <column>last_name</column>
+        <column>address</column>
+        <column>city</column>
+        <column>country</column>
+        <column>email</column>
+        <column>phone_number</column>
+        <column>postal_code</column>
+        <column>province</column>
+        <column>website</column>
+        <column>password_hint</column>
+        <column>version</column>
+        <column>account_enabled</column>
+        <column>account_expired</column>
+        <column>account_locked</column>
+        <column>credentials_expired</column>
+        <row>
+            <value description="id">-1</value>
+            <value description="username">user</value>
+            <value description="password">$2a$10$CnQVJ9bsWBjMpeSKrrdDEeuIptZxXrwtI6CZ/OgtNxhIgpKxXeT9y</value>
+            <value description="first_name">Tomcat</value>
+            <value description="last_name">User</value>
+            <value description="address"></value>
+            <value description="city">Denver</value>
+            <value description="country">US</value>
+            <value description="email">matt_raible@yahoo.com</value>
+            <value description="phone_number"></value>
+            <value description="postal_code">80210</value>
+            <value description="province">CO</value>
+            <value description="website">http://tomcat.apache.org</value>
+            <value description="password_hint"><![CDATA[A male kitty.]]></value>
+            <value description="version">1</value>
+            <value description="account_enabled">1</value>
+            <value description="account_expired">0</value>
+            <value description="account_locked">0</value>
+            <value description="credentials_expired">0</value>
+        </row>
+        <row>
+            <value description="id">-2</value>
+            <value description="username">admin</value>
+            <value description="password">$2a$10$bH/ssqW8OhkTlIso9/yakubYODUOmh.6m5HEJvcBq3t3VdBh7ebqO</value>
+            <value description="first_name">Matt</value>
+            <value description="last_name">Raible</value>
+            <value description="address"></value>
+            <value description="city">Denver</value>
+            <value description="country">US</value>
+            <value description="email">matt@raibledesigns.com</value>
+            <value description="phone_number"></value>
+            <value description="postal_code">80210</value>
+            <value description="province">CO</value>
+            <value description="website">http://raibledesigns.com</value>
+            <value description="password_hint"><![CDATA[Not a female kitty.]]></value>
+            <value description="version">1</value>
+            <value description="account_enabled">1</value>
+            <value description="account_expired">0</value>
+            <value description="account_locked">0</value>
+            <value description="credentials_expired">0</value>
+        </row>
+        <row>
+            <value description="id">-3</value>
+            <value description="username">two_roles_user</value>
+            <value description="password">$2a$10$bH/ssqW8OhkTlIso9/yakubYODUOmh.6m5HEJvcBq3t3VdBh7ebqO</value>
+            <value description="first_name">Two Roles</value>
+            <value description="last_name">User</value>
+            <value description="address"></value>
+            <value description="city">Denver</value>
+            <value description="country">US</value>
+            <value description="email">two_roles_user@appfuse.org</value>
+            <value description="phone_number"></value>
+            <value description="postal_code">80210</value>
+            <value description="province">CO</value>
+            <value description="website">http://raibledesigns.com</value>
+            <value description="password_hint"><![CDATA[Not a female kitty.]]></value>
+            <value description="version">1</value>
+            <value description="account_enabled">1</value>
+            <value description="account_expired">0</value>
+            <value description="account_locked">0</value>
+            <value description="credentials_expired">0</value>
+        </row>
+        
+        <!-- member1 -->
+        <row>
+            <value description="id">1</value>
+            <value description="username">member1</value>
+            <value description="password">a$2a$10$bH/ssqW8OhkTlIso9/yakubYODUOmh.6m5HEJvcBq3t3VdBh7ebqO</value>
+            <value description="first_name">Member</value>
+            <value description="last_name">One</value>
+            <value description="address"></value>
+            <value description="city"></value>
+            <value description="country"></value>
+            <value description="email">member@one.com</value>
+            <value description="phone_number"></value>
+            <value description="postal_code"></value>
+            <value description="province"></value>
+            <value description="website"></value>
+            <value description="password_hint"><![CDATA[numbers]]></value>
+            <value description="version">1</value>
+            <value description="account_enabled">1</value>
+            <value description="account_expired">0</value>
+            <value description="account_locked">0</value>
+            <value description="credentials_expired">0</value>
+        </row>
+        
+        <!-- member2 -->
+        <row>
+            <value description="id">2</value>
+            <value description="username">member2</value>
+            <value description="password">a$2a$10$bH/ssqW8OhkTlIso9/yakubYODUOmh.6m5HEJvcBq3t3VdBh7ebqO</value>
+            <value description="first_name">Member</value>
+            <value description="last_name">Two</value>
+            <value description="address"></value>
+            <value description="city"></value>
+            <value description="country"></value>
+            <value description="email">member@two.org</value>
+            <value description="phone_number"></value>
+            <value description="postal_code"></value>
+            <value description="province"></value>
+            <value description="website"></value>
+            <value description="password_hint"><![CDATA[numbers]]></value>
+            <value description="version">1</value>
+            <value description="account_enabled">1</value>
+            <value description="account_expired">0</value>
+            <value description="account_locked">0</value>
+            <value description="credentials_expired">0</value>
+        </row>
+    </table>
+    <table name="role">
+        <column>id</column>
+        <column>name</column>
+        <column>description</column>
+        <row>
+            <value description="id">-1</value>
+            <value description="name">ROLE_ADMIN</value>
+            <value description="description"><![CDATA[Administrator role (can edit Users)]]></value>
+        </row>
+        <row>
+            <value description="id">-2</value>
+            <value description="name">ROLE_USER</value>
+            <value description="description"><![CDATA[Default role for all Users]]></value>
+        </row>
+    </table>
+    <table name="user_role">
+        <column>user_id</column>
+        <column>role_id</column>
+        <row>
+            <value description="user_id">-1</value>
+            <value description="role_id">-2</value>
+        </row>
+        <row>
+            <value description="user_id">-2</value>
+            <value description="role_id">-1</value>
+        </row>
+        <row>
+            <value description="user_id">-3</value>
+            <value description="role_id">-1</value>
+        </row>
+        <row>
+            <value description="user_id">-3</value>
+            <value description="role_id">-2</value>
+        </row>
+    </table>
+    
+	<table name="Plan">
+    	<column>ID</column>
+    	<column>name</column>
+    	<column>fromDate</column>
+    	<column>memberID</column>
+    	
+    	<row>
+    		<value description="ID">-1</value>
+    		<value description="name">test plan</value>
+    		<value description="fromDate">2015-1-1</value>
+    		<value description="memberID">-1</value>
+   		</row>
+	</table>
+
+	<table name="DailyRecord">
+		<column>ID</column>
+		<column>date</column>
+		<column>memberID</column>
+		
+		<row>
+			<value description="ID">-5</value>
+			<value description="date">2015-5-15</value>
+			<value description="memberID">1</value>
+		</row>
+	</table>
+	
+	<table name="Activity">
+		<column>ID</column>
+		<column>name</column>
+		<column>actType</column>
+		<column>unit</column>
+		<column>value</column>
+		<column>dailyRecord_ID</column>
+		
+		<row>
+			<!-- <value description=""></value> -->
+			<value description="ID">-1</value>
+			<value description="name">Test act 1</value>
+			<value description="actType">0</value> <!-- running -->
+			<value description="unit">1</value> <!-- km -->
+			<value description="value">3</value>
+			<value description="dailyRecord_ID">-5</value>
+		</row>
+	</table>
+	
+	<table name="Goal">
+    	<column>ID</column>
+    	<column>plan_ID</column>
+    	<column>name</column>
+    	<column>completed</column>
+    	<column>value</column>
+    	<column>unit</column>
+    	<column>actType</column>
+		<column>progress</column>
+		
+		<row>
+			<value description="ID">-1</value>
+			<value description="plan_ID">-1</value>
+			<value description="name">test goal</value>
+			<value description="completed">false</value>
+			<value description="value">6</value>
+			<value description="unit">1</value> <!-- km -->
+			<value description="actType">0</value> <!-- running -->
+			<value description="progress">0</value>
+		</row>
+		<row>
+			<value description="ID">-2</value>
+			<value description="plan_ID">-1</value>
+			<value description="name">test goal</value>
+			<value description="completed">true</value>
+			<value description="value">5</value>
+			<value description="unit">1</value> <!-- km -->
+			<value description="actType">0</value> <!-- running -->
+			<value description="progress">0</value>
+		</row>
+	</table>
+	
+	<table name="goal_activity">
+		<column>goalID</column>
+		<column>activityID</column>
+		<row>
+			<value description="goalID">-1</value>
+			<value description="activityID">-1</value>
+		</row>
+	</table>
+	
+    <!--<table name="Plan">
+    	<column>ID</column>
+    	<column>name</column>
+    	<column>fromDate</column>
+    	<column>memberID</column>
+    	<row>
+    		<value>1</value>
+    		<value>Running plan</value>
+    		<value>2015-1-1</value>
+    		<value>-2</value>
+    	</row>
+    	<row>
+    		<value>2</value>
+    		<value>Jogging plan</value>
+    		<value>2015-9-15</value>
+    		<value>1</value>
+    	</row>
+    	<row>
+    		<value>3</value>
+    		<value>Swimming plan</value>
+    		<value>2015-6-29</value>
+    		<value>1</value>
+    	</row>
+    	<row>
+    		<value>4</value>
+    		<value>Delete plan</value>
+    		<value>2015-6-29</value>
+    		<value>1</value>
+    	</row>
+		<row>
+			<value>5</value>
+			<value>Test plan</value>
+			<value>2015-1-1</value>
+			<value>1</value>
+		</row>
+    </table>
+    
+    <table name="DailyRecord">
+	   	<column>ID</column>
+	   	<column>date</column>
+	   	<column>memberID</column>
+		<row>
+			<value>0</value>
+			<value>2015-1-1</value>
+			<value>-1</value>
+		</row>
+	   	<row>
+	   		<value>1</value>
+	   		<value>2015-9-28</value>
+	   		<value>1</value>
+	   	</row>
+	   	<row>
+	   		<value>2</value>
+	   		<value>2015-9-29</value>
+	   		<value>1</value>
+	   	</row>
+	   	<row>
+	   		<value>3</value>
+	   		<value>2015-9-30</value>
+	   		<value>1</value>
+	   	</row>
+	   	<row>
+	   		<value>4</value>
+	   		<value>2015-10-5</value>
+	   		<value>1</value>
+	   	</row>
+	   	<row>
+	   		<value>5</value>
+	   		<value>2015-10-5</value>
+	   		<value>2</value>
+	   	</row>
+	   	<row>
+	   		<value>6</value>
+	   		<value>2015-10-6</value>
+	   		<value>-2</value>
+	   	</row>
+		<row>
+	   		<value>7</value>
+	   		<value>2015-10-5</value>
+	   		<value>-2</value>
+	   	</row>
+		<row>
+	   		<value>8</value>
+	   		<value>2015-10-4</value>
+	   		<value>-2</value>
+	   	</row>
+    </table>
+    
+    <table name="Activity">
+    	<column>ID</column>
+    	<column>drID</column>
+    	<column>name</column>
+    	<column>value</column>
+    	<column>unit</column>
+    	<column>actType</column>
+    	<row>
+    		<value>1</value>
+    		<value>4</value>
+    		<value>Running</value>
+    		<value>3.5</value>
+    		<value>1</value>
+    		<value>0</value>
+    	</row>
+    	<row>
+    		<value>2</value>
+    		<value>4</value>
+    		<value>Swimming</value>
+    		<value>1</value>
+    		<value>1</value>
+    		<value>1</value>
+    	</row>
+    	<row>
+    		<value>3</value>
+    		<value>5</value>
+    		<value>Swimming</value>
+    		<value>2</value>
+    		<value>1</value>
+    		<value>1</value>
+    	</row>
+		<row>
+    		<value>4</value>
+    		<value>6</value>
+    		<value>Running</value>
+    		<value>1</value>
+    		<value>1</value>
+    		<value>0</value>
+    	</row>
+		<row>
+    		<value>5</value>
+    		<value>7</value>
+    		<value>Running</value>
+    		<value>2</value>
+    		<value>1</value>
+    		<value>0</value>
+    	</row>
+		<row>
+    		<value>6</value>
+    		<value>8</value>
+    		<value>Running</value>
+    		<value>3</value>
+    		<value>1</value>
+    		<value>0</value>
+    	</row>
+		<row>
+    		<value>7</value>
+    		<value>0</value>
+    		<value>Test act</value>
+    		<value>3</value>
+    		<value>1</value>
+    		<value>0</value>
+    	</row>
+		<row>
+    		<value>8</value>
+    		<value>0</value>
+    		<value>Test act</value>
+    		<value>3</value>
+    		<value>1</value>
+    		<value>0</value>
+    	</row>
+		<row>
+    		<value>9</value>
+    		<value>0</value>
+    		<value>Test act</value>
+    		<value>3</value>
+    		<value>1</value>
+    		<value>0</value>
+    	</row>
+    </table>
+    
+    <table name="Goal">
+    	<column>ID</column>
+    	<column>planID</column>
+    	<column>name</column>
+    	<column>completed</column>
+    	<column>value</column>
+    	<column>unit</column>
+    	<column>actType</column>
+		<column>progress</column>
+    	
+    	<row>
+    		<value>1</value>
+    		<value>1</value>
+    		<value>goal1</value>
+    		<value>true</value>
+    		<value>1</value>
+    		<value>1</value>
+    		<value>0</value>
+			<value>0</value>
+    	</row>
+    	<row>
+    		<value>2</value>
+    		<value>1</value>
+    		<value>goal2</value>
+    		<value>false</value>
+    		<value>12</value>
+    		<value>1</value>
+    		<value>0</value>
+			<value>0</value>
+    	</row>
+    	<row>
+    		<value>3</value>
+    		<value>2</value>
+    		<value>goal3</value>
+    		<value>false</value>
+    		<value>3</value>
+    		<value>1</value>
+    		<value>2</value>
+			<value>0</value>
+    	</row>
+    	<row>
+    		<value>4</value>
+    		<value>4</value>
+    		<value>delete goal</value>
+    		<value>false</value>
+    		<value>3</value>
+    		<value>1</value>
+    		<value>0</value>
+			<value>0</value>
+    	</row>
+    	<row>
+    		<value>5</value>
+    		<value>4</value>
+    		<value>delete goal</value>
+    		<value>false</value>
+    		<value>3</value>
+    		<value>1</value>
+    		<value>0</value>
+			<value>0</value>
+    	</row>
+		<row>
+    		<value>6</value>
+    		<value>2</value>
+    		<value>goal2</value>
+    		<value>false</value>
+    		<value>2</value>
+    		<value>1</value>
+    		<value>0</value>
+			<value>0</value>
+    	</row>
+		<row>
+    		<value>7</value>
+    		<value>2</value>
+    		<value>goal2</value>
+    		<value>false</value>
+    		<value>2</value>
+    		<value>1</value>
+    		<value>0</value>
+			<value>0</value>
+    	</row>
+		<row>
+    		<value>8</value>
+    		<value>2</value>
+    		<value>goal2</value>
+    		<value>false</value>
+    		<value>2</value>
+    		<value>1</value>
+    		<value>1</value>
+			<value>0</value>
+    	</row>
+		<row>
+    		<value>9</value>
+    		<value>1</value>
+    		<value>jogging goal</value>
+    		<value>false</value>
+    		<value>2</value>
+    		<value>1</value>
+    		<value>2</value>
+			<value>0</value>
+    	</row>
+		<row>
+    		<value>10</value>
+    		<value>5</value>
+    		<value>test goal</value>
+    		<value>false</value>
+    		<value>2</value>
+    		<value>1</value>
+    		<value>0</value>
+			<value>0</value>
+    	</row>
+    </table>
+	
+	<table name="goal_activity">
+		<column>goalID</column>
+		<column>activityID</column>
+		<row>
+			<value>2</value>
+			<value>4</value>
+		</row>
+		<row>
+			<value>2</value>
+			<value>5</value>
+		</row>
+		<row>
+			<value>2</value>
+			<value>6</value>
+		</row>
+		<row>
+			<value>10</value>
+			<value>7</value>
+		</row>
+		<row>
+			<value>10</value>
+			<value>8</value>
+		</row>
+		<row>
+			<value>10</value>
+			<value>9</value>
+		</row>
+	</table>
+	
+	<table name="Progress">
+		<column>ID</column>
+		<column>goalID</column>
+		<column>activityID</column>
+		<row>
+			<value>1</value>
+			<value>2</value>
+			<value>4</value>
+		</row>
+		<row>
+			<value>2</value>
+			<value>2</value>
+			<value>5</value>
+		</row>
+		<row>
+			<value>3</value>
+			<value>2</value>
+			<value>6</value>
+		</row>
+	</table> -->
+</dataset>

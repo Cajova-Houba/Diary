@@ -1,0 +1,95 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building AppFuse Modular Application - Web (Spring MVC) 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] >>> jetty-maven-plugin:9.2.1.v20140609:run (default-cli) > test-compile @ diary-test-2-web >>>
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.3.1:enforce (enforce-versions) @ diary-test-2-web ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ diary-test-2-web ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 44 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ diary-test-2-web ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- native2ascii-maven-plugin:1.0-beta-1:native2ascii (native2ascii-utf8) @ diary-test-2-web ---
+[INFO] Includes: [ApplicationResources_el*.properties, ApplicationResources_zh*.properties, ApplicationResources_ko*.properties, displaytag_el*.properties, displaytag_zh*.properties]
+[INFO] Excludes: []
+[INFO] Processing d:\škola\FIN\sem1\project\source\diary-test-2\web\target\classes\ApplicationResources_el.properties
+[INFO] Processing d:\škola\FIN\sem1\project\source\diary-test-2\web\target\classes\ApplicationResources_ko.properties
+[INFO] Processing d:\škola\FIN\sem1\project\source\diary-test-2\web\target\classes\ApplicationResources_zh.properties
+[INFO] Processing d:\škola\FIN\sem1\project\source\diary-test-2\web\target\classes\ApplicationResources_zh_CN.properties
+[INFO] Processing d:\škola\FIN\sem1\project\source\diary-test-2\web\target\classes\ApplicationResources_zh_TW.properties
+[INFO] Processing d:\škola\FIN\sem1\project\source\diary-test-2\web\target\classes\displaytag_el.properties
+[INFO] Processing d:\škola\FIN\sem1\project\source\diary-test-2\web\target\classes\displaytag_zh.properties
+[INFO] Processing d:\škola\FIN\sem1\project\source\diary-test-2\web\target\classes\displaytag_zh_CN.properties
+[INFO] Processing d:\škola\FIN\sem1\project\source\diary-test-2\web\target\classes\displaytag_zh_TW.properties
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ diary-test-2-web ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 5 resources
+[INFO] Copying 16 resources
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.9.1:reserve-network-port (reserve-ports) @ diary-test-2-web ---
+[INFO] Reserved port 31299 for cargo.port
+[INFO] Reserved port 31300 for cargo.ajp.port
+[INFO] Reserved port 31301 for cargo.debug.port
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ diary-test-2-web ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- dbunit-maven-plugin:1.0-beta-3:operation (test-compile) @ diary-test-2-web ---
+[INFO] 
+	database name=MySQL
+	database version=5.6.26
+	database major version=5
+	database minor version=6
+	jdbc driver name=MySQL Connector Java
+	jdbc driver version=mysql-connector-java-5.1.27 ( Revision: alexander.soklakov@oracle.com-20131021093118-gtm1bh1vb450xipt )
+	jdbc driver major version=5
+	jdbc driver minor version=1
+
+[INFO] 
+[INFO] <<< jetty-maven-plugin:9.2.1.v20140609:run (default-cli) < test-compile @ diary-test-2-web <<<
+[INFO] 
+[INFO] --- jetty-maven-plugin:9.2.1.v20140609:run (default-cli) @ diary-test-2-web ---
+[INFO] Logging initialized @9778ms
+[INFO] Configuring Jetty for project: AppFuse Modular Application - Web (Spring MVC)
+[INFO] webAppSourceDirectory not set. Trying src\main\webapp
+[INFO] Reload Mechanic: automatic
+[INFO] Classes = D:\škola\FIN\sem1\project\source\diary-test-2\web\target\classes
+[INFO] Context path = /
+[INFO] Tmp directory = D:\škola\FIN\sem1\project\source\diary-test-2\web\target\tmp
+[INFO] Web defaults = org/eclipse/jetty/webapp/webdefault.xml
+[INFO] Web overrides =  none
+[INFO] web.xml file = file:/D:/%C5%A1kola/FIN/sem1/project/source/diary-test-2/web/src/main/webapp/WEB-INF/web.xml
+[INFO] Webapp directory = D:\škola\FIN\sem1\project\source\diary-test-2\web\src\main\webapp
+[INFO] jetty-9.2.1.v20140609
+[INFO] No Spring WebApplicationInitializer types detected on classpath
+[INFO] Initializing Spring root WebApplicationContext
+DEBUG [main] LookupDaoHibernate.getRoles(39) | Retrieving all role names...
+WARN [main] StartupListener.contextInitialized(96) | META-INF/MANIFEST.MF not found.
+[INFO] org.tuckey.web.filters.urlrewrite.UrlRewriteFilter INFO: conf reload check disabled
+[INFO] org.tuckey.web.filters.urlrewrite.UrlRewriteFilter INFO: loaded (conf ok)
+[INFO] Initializing Spring FrameworkServlet 'dispatcher'
+[INFO] Started o.e.j.m.p.JettyWebAppContext@403c3a01{/,[file:/D:/%C5%A1kola/FIN/sem1/project/source/diary-test-2/web/src/main/webapp/, jar:file:/C:/Users/Zdenda/.m2/repository/org/webjars/bootstrap-datepicker/1.3.1/bootstrap-datepicker-1.3.1.jar!/META-INF/resources, jar:file:/C:/Users/Zdenda/.m2/repository/org/webjars/bootstrap/3.3.1/bootstrap-3.3.1.jar!/META-INF/resources, jar:file:/C:/Users/Zdenda/.m2/repository/org/webjars/jquery/1.11.1/jquery-1.11.1.jar!/META-INF/resources, jar:file:/C:/Users/Zdenda/.m2/repository/org/webjars/jquery-cookie/1.3.1/jquery-cookie-1.3.1.jar!/META-INF/resources, jar:file:/C:/Users/Zdenda/.m2/repository/org/webjars/bootswatch-spacelab/3.3.1+2/bootswatch-spacelab-3.3.1+2.jar!/META-INF/resources],AVAILABLE}{file:/D:/%C5%A1kola/FIN/sem1/project/source/diary-test-2/web/src/main/webapp/}
+[WARNING] !RequestLog
+[INFO] Started ServerConnector@5c960f64{HTTP/1.1}{0.0.0.0:8080}
+[INFO] Started @62419ms
+[INFO] Started Jetty Server
+[INFO] Stopped ServerConnector@5c960f64{HTTP/1.1}{0.0.0.0:8080}
+[INFO] Destroying Spring FrameworkServlet 'dispatcher'
+[INFO] org.tuckey.web.filters.urlrewrite.UrlRewriteFilter INFO: destroy called
+[INFO] Closing Spring root WebApplicationContext
+[INFO] Stopped o.e.j.m.p.JettyWebAppContext@403c3a01{/,[file:/D:/%C5%A1kola/FIN/sem1/project/source/diary-test-2/web/src/main/webapp/, jar:file:/C:/Users/Zdenda/.m2/repository/org/webjars/bootstrap-datepicker/1.3.1/bootstrap-datepicker-1.3.1.jar!/META-INF/resources, jar:file:/C:/Users/Zdenda/.m2/repository/org/webjars/bootstrap/3.3.1/bootstrap-3.3.1.jar!/META-INF/resources, jar:file:/C:/Users/Zdenda/.m2/repository/org/webjars/jquery/1.11.1/jquery-1.11.1.jar!/META-INF/resources, jar:file:/C:/Users/Zdenda/.m2/repository/org/webjars/jquery-cookie/1.3.1/jquery-cookie-1.3.1.jar!/META-INF/resources, jar:file:/C:/Users/Zdenda/.m2/repository/org/webjars/bootswatch-spacelab/3.3.1+2/bootswatch-spacelab-3.3.1+2.jar!/META-INF/resources],UNAVAILABLE}{file:/D:/%C5%A1kola/FIN/sem1/project/source/diary-test-2/web/src/main/webapp/}
+[INFO] Jetty server exiting.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 26:26 min
+[INFO] Finished at: 2015-10-06T00:57:04+03:00
+[INFO] Final Memory: 63M/583M
+[INFO] ------------------------------------------------------------------------
